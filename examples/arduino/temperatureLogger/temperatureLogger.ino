@@ -208,12 +208,3 @@ void SendTempData(float temperature){
  mySerial.println("AT+CIPCLOSE");
 }
 
-
-
-
-
-
-
-
-
-
