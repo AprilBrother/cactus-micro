@@ -2,8 +2,6 @@
 #include <DallasTemperature.h>
 #include <SoftwareSerial.h>
 
-//keys for data.sparkfun.com api (dont use quotes here)
-
 //period between posts, set at 60 seconds
 #define DELAY_PERIOD 60000
 
