@@ -74,9 +74,7 @@ boolean connectWifi() {
      wifiConnected = 1;
      break;
    }
-   if(mySerial.find("ERROR")) {
-     break;
-   }
+   
    delay(50);
  }
  
