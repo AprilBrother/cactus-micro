@@ -47,7 +47,7 @@ void setup()
 
     //set mode needed for new boards
     mySerial.println("AT+RST");
-    delay(500);//delay after mode change       
+    delay(3000);//delay after mode change       
     mySerial.println("AT+CWMODE=1");
     delay(300);
     mySerial.println("AT+RST");
